@@ -66,11 +66,22 @@ a {
     font-size: 27px;
     font-weight: 900;
     letter-spacing: -1.5px;
-    white-space: nowrap
+    white-space: nowrap;
+}
+
+.logo p{
+    font-size: 6px;
+    letter-spacing: 5px;
+    justify-self: center;
+    margin: 0px;
 }
 
 .logo span {
     color: var(--green)
+}
+
+.span-2{
+    color: #BE995F!important;
 }
 
 .search {

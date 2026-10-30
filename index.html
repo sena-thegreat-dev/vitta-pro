@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Vitta Pro — Suplementos para sua rotina</title>
+    <title>BomVitta — Suplementos para sua rotina</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,24 +13,24 @@
     <header class="header">
         <div class="container">
             <div class="headrow"><button class="iconbtn hamb" onclick="toggleMenu()" aria-label="Menu">☰</button><a
-                    href="#inicio" class="logo" onclick="goHome()">vitta<span>pro.</span></a>
+                    href="#inicio" class="logo" onclick="goHome()"><span>BomV</span><span class="span-2">itta</span>
+                    <p>SUPLEMENTOS</p>
+                </a>
                 <div class="search"><input id="search" placeholder="O que você está procurando?"
-                    onkeydown="if(event.key==='Enter')searchProducts()"><button onclick="searchProducts()"
-                    aria-label="Buscar">⌕</button>
+                        onkeydown="if(event.key==='Enter')searchProducts()"><button onclick="searchProducts()"
+                        aria-label="Buscar">⌕</button>
                 </div>
-                <button class="iconbtn"
-                    onclick="toast('Área de conta: demonstração')" title="Minha conta">♙
+                <button class="iconbtn" onclick="toast('Área de conta: demonstração')" title="Minha conta">♙
                 </button>
-                <button class="iconbtn"
-                    onclick="openCart()" aria-label="Carrinho">♧
+                <button class="iconbtn" onclick="openCart()" aria-label="Carrinho">♧
                     <span class="count" id="cartCount">0</span>
                 </button>
             </div>
             <nav class="nav"><a href="#inicio" onclick="goHome()">Início</a><a href="#produtos"
-                onclick="showCatalog('todos')">Todos os produtos</a><a href="#produtos"
-                onclick="showCatalog('energia')">Energia</a><a href="#produtos"
-                onclick="showCatalog('articulacao')">Articulação & Recuperação</a><a href="#produtos"
-                onclick="showCatalog('foco')">Foco</a><a href="#kit" onclick="showDetail('kit')">Kit Completo</a>
+                    onclick="showCatalog('todos')">Todos os produtos</a><a href="#produtos"
+                    onclick="showCatalog('energia')">Energia</a><a href="#produtos"
+                    onclick="showCatalog('articulacao')">Articulação & Recuperação</a><a href="#produtos"
+                    onclick="showCatalog('foco')">Foco</a><a href="#kit" onclick="showDetail('kit')">Kit Completo</a>
             </nav>
         </div>
     </header>
@@ -41,7 +41,7 @@
                     <div class="eyebrow">Bem-estar para quem faz acontecer</div>
                     <h1>Seu cuidado também merece prioridade.</h1>
                     <p>Produtos selecionados para acompanhar a rotina de quem dedica o dia inteiro ao trabalho. Conheça
-                        a linha Vitta Pro.</p>
+                        a linha BomVitta.</p>
                     <div class="hero-actions"><button class="btn" onclick="showDetail('kit')">Conhecer o kit
                             →</button><button class="btn outline"
                             onclick="document.getElementById('vitrine').scrollIntoView({behavior:'smooth'})">Ver
@@ -166,19 +166,19 @@
                         <div class="stars">☆☆☆☆☆</div>
                         <h3>Avaliação de cliente</h3>
                         <p>Avaliação</p>
-    
+
                     </div>
                     <div class="review">
                         <div class="stars">☆☆☆☆☆</div>
                         <h3>Avaliação de cliente</h3>
                         <p>Avaliação</p>
-    
+
                     </div>
                     <div class="review">
                         <div class="stars">☆☆☆☆☆</div>
                         <h3>Avaliação de cliente</h3>
                         <p>Avaliação</p>
-    
+
                     </div>
                 </div>
             </div>
@@ -220,7 +220,7 @@
             <div class="breadcrumbs"><a href="#inicio" onclick="goHome()">Início</a> / Produtos</div>
             <div class="section-head">
                 <div>
-                    <div class="eyebrow">Loja Vitta Pro</div>
+                    <div class="eyebrow">Loja BomVitta</div>
                     <h2>Todos os produtos</h2>
                     <p>Encontre os produtos para sua rotina.</p>
                 </div>
@@ -237,7 +237,7 @@
             <div class="detail-layout">
                 <div class="detail-img"><img id="detailImage" alt="Produto"></div>
                 <div class="detail-copy">
-                    <div class="eyebrow">Vitta Pro · Linha de bem-estar</div>
+                    <div class="eyebrow">BomVitta · Linha de bem-estar</div>
                     <h1 id="detailTitle"></h1>
                     <p id="detailDesc"></p>
                     <div class="old" id="detailOld"></div>
@@ -323,7 +323,10 @@
         <div class="container">
             <div class="footer-grid">
                 <div>
-                    <div class="logo">vitta<span>pro.</span></div>
+                    <div class="logo"><span>BomV</span>itta
+                        <p>SUPLEMENTOS</p>
+                    </div>
+
                     <p>Bem-estar e autocuidado para acompanhar sua rotina profissional.</p>
                 </div>
                 <div>
@@ -345,7 +348,7 @@
                             type="email" placeholder="Seu e-mail"><button aria-label="Cadastrar">→</button></form>
                 </div>
             </div>
-            <div class="copyright">© Vitta Pro · Todos os direitos reservados</div>
+            <div class="copyright">© BomVitta · Todos os direitos reservados</div>
         </div>
     </footer>
     <div class="overlay" id="overlay" onclick="closeAll()"></div>
